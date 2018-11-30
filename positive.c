@@ -3,12 +3,12 @@
 int main()
 {
     int n;
-    printf("enter the number ");
+    
     scanf("%d",&n);
     if(n>0)
-    printf("%d is positive ",n);
+    printf( "Positive ");
     else if(n<0)
-    printf("%d is negative ",n);
+    printf("Negative ");
     else
-    printf("%d is zero",n);
+    printf("Zero",n);
 }    
