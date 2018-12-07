@@ -4,11 +4,8 @@ int main()
 	char d;
 	scanf("%c",&d);
 	if(d>='a' && d<='z'||d>='A' && d<='Z')
-	{
-		printf("Alphabet");
-	}
+	       printf("Alphabet");
 	else
-	{
-		printf("No");
-	}
+               printf("No");
+	
 }
