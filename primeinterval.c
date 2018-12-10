@@ -15,7 +15,7 @@ int main()
 			}
 	}
 		if(prime==0)
-		printf("%d",i);
+		printf("%d\t",i);
 		
 	}
 	return 0;
