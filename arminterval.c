@@ -15,7 +15,7 @@ int main()
 		}
 		if(i==arm)
 		{
-			printf("%d\t",i);
+			printf("%d",i);
 		}
 	}
   return 0;
