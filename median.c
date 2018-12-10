@@ -23,11 +23,11 @@ int main()
 	if(n%2!=0)
 	{
 		int m=n/2;
-		printf("%d ",b[m]);
+		printf("%d",b[m]);
 	}
 	else
 	{
 		int d=(b[n/2]+b[n/2]-1)/2;
-		printf("%d ",d);
+		printf("%d",d);
 	}
 }
