@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include<string.h>
+int main(void)
+{
+	char a[100];
+	scanf("%s",a);
+	int i,n,count=1;
+	n=strlen(a);
+	for(i=0;i<n;i++)
+	{
+	  if(a[i] == ' ')
+	  {
+	  	count++;
+	  }
+	}
+	printf("%d",count+1);
+}	
