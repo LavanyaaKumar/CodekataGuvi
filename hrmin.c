@@ -12,7 +12,7 @@ int main()
 	{
 		h=t/60;
 		m=t%60;
-		printf("%d\t%d",h,m);
+		printf("%d %d",h,m);
 	}
 	return 0;
 }
