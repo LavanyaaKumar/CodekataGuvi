@@ -5,7 +5,7 @@ int main()
 	scanf("%d",&t);
 	if(t<60)
 	{
-		printf("0\t%d",t);
+		printf("0 %d",t);
 		
 	}
 	else
