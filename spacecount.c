@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include<string.h>
 int main(void) {
-	char a[30];
+	char a[100];
 	gets(a);
 	int i,n,count=0;
 	n=strlen(a);
