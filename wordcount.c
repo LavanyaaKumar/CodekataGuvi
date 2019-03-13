@@ -3,7 +3,7 @@
 int main(void)
 {
 	char a[100];
-	scanf("%s",a);
+	gets(a);
 	int i,n,count=0;
 	n=strlen(a);
 	for(i=0;i<n;i++)
