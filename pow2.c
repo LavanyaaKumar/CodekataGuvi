@@ -3,7 +3,7 @@ int main(void)
 {
 int a,n,b;
 scanf("%d",&n);
-while(n!=1)
+while(n>1)
 {
     if(n%2!=0)
     {
