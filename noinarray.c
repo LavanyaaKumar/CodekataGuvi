@@ -9,7 +9,7 @@ for(i=0;i<k;i++)
 }
 for(i=0;i<k;i++)
 {
-	if((n1||n2)==a[i])
+	if(a[i]==(n1||n2))
 	y=1;
 	break;
 }
