@@ -9,7 +9,7 @@ for(i=0;i<n;i++)
 }
 for(i=0;i<n;i++)
 {
-	if(k==a[i])
+	if(a[i]==k)
 	y=1;
 	break;
 }
