@@ -2,14 +2,14 @@
 
 int main(void) {
 int n1,n2,k,a[10],i,y=0;
-scanf("%d%d%d",&n1,&n2,&k);
-for(i=0;i<k;i++)
+scanf("%d%d",&n,&k);
+for(i=0;i<n;i++)
 {
 	scanf("%d",&a[i]);
 }
-for(i=0;i<k;i++)
+for(i=0;i<n;i++)
 {
-	if(a[i]==(n1||n2))
+	if(k==a[i])
 	y=1;
 	break;
 }
